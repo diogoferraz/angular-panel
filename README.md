@@ -1,6 +1,23 @@
-# Adminpanel
+# Angular Panel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3, Bootstrap and FontAwesome Icons.
+Also, it is an architecture proposal with a simple login flow with Amgular AuthGuard, lazy loading, and routing.
+
+## The folder architecture 
+```
+- app
+-- guards
+-- modules
+  |-- admin
+    |--- components
+-- services
+-- components
+  |-- login
+  |-- forgot-password
+  |-- not-found
+```
+
+<img width="223" alt="Screenshot 2022-06-30 at 14 51 01" src="https://user-images.githubusercontent.com/11242953/176694464-db04c3e6-7980-4b6e-88fb-c497bff91cff.png">
 
 ## Development server
 
