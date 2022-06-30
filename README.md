@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3, Bootstrap and FontAwesome Icons.
 Also, it is an architecture proposal with a simple login flow with Amgular AuthGuard, lazy loading, and routing.
 
-## The folder architecture 
+### The Simple Architecture 
 ```
 - app
 -- guards
@@ -22,10 +22,15 @@ Also, it is an architecture proposal with a simple login flow with Amgular AuthG
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+If you are in vs code all you need is to run you debugger with F5
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For scafofolding you should run:
+* Modules - `ng g m modules/[name of module]` if we want module with route add `--rounting`
+* Services - `ng g s services/[name of service]`
+* Guard - `ng g g guards/[name of guard]`
+* Components - `ng g c components/[name of component]`
 
 ## Build
 
